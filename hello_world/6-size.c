@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	char charType;
 	int intType;
@@ -19,5 +19,4 @@ int main()
 	printf("Size of a long int: %zu byte(s)\n", sizeof(longType));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(long2Type));
 	printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
-		return (0);
-}        
+} return(0); 
