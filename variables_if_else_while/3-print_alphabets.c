@@ -18,7 +18,7 @@ i++;
 } while (i <= 122);
 do {
 putchar(i2);
-i++;
+i2++;
 } while (i2 <= 90);
 putchar('\n');
 return (0);
