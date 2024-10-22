@@ -19,7 +19,8 @@ for (i = 48; i <= 56; i++)
 	putchar(i);
 	putchar(com);
 	putchar(space);
+	putchar(i2);
+	break;
 }
-putchar(i2);
 	return (0);
 }
