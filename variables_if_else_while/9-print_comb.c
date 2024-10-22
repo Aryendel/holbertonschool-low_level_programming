@@ -10,14 +10,13 @@
  */
 int main(void)
 {
-int i,i2;
+int i;
 for (i = 48; i <= 56; i++)
 {
 	putchar(i);
 	putchar(',');
 	putchar(' ');
 }
-i2 = 57;
-putchar(i2);
+putchar('9');
 	return (0);
 }
