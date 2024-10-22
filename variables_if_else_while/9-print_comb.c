@@ -10,17 +10,15 @@
  */
 int main(void)
 {
-int i, i2, com, space;
-i2 = 57;
-com = 44;
-space = 32;
-for (i = 48; i <= 56; i++)
-{
-	putchar(i);
-	putchar(com);
-	putchar(space);
-	putchar(i2);
-	break;
-}
+int i;
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+		if (i < 9)
+		{
+		putchar(',');
+		putchar(' ');
+		}
+	}
 	return (0);
 }
