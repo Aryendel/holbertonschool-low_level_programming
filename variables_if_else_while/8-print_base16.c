@@ -11,7 +11,7 @@
 int main(void)
 {
 int i = 48;
-int i2 = 65;
+int i2 = 97;
 do {
 putchar(i);
 i++;
@@ -19,7 +19,7 @@ i++;
 do {
 putchar(i2);
 i2++;
-} while (i2 <= 70);
+} while (i2 <= 102);
 putchar('\n');
 return (0);
 }
