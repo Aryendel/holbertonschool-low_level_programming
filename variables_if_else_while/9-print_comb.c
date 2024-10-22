@@ -10,13 +10,15 @@
  */
 int main(void)
 {
-int i, i2;
+int i, i2, com, space;
 i2 = 57;
+com = 46;
+space = 32;
 for (i = 48; i <= 56; i++)
 {
 	putchar(i);
-	putchar(',');
-	putchar(' ');
+	putchar(com);
+	putchar(space);
 }
 putchar(i2);
 	return (0);
