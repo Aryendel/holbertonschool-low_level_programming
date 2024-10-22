@@ -10,9 +10,14 @@
  */
 int main(void)
 {
-for (int i = 97; i <= 122; i++)
+int i = 97;
 {
+	while (i < 122)
+{
+	i++;
 	putchar(i);
 }
 	return (0);
+
+}
 }
