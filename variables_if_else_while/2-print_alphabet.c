@@ -11,11 +11,10 @@
 int main(void)
 {
 int i = 97;
-while (i < 122)
-{
+do {
 putchar(i);
 i++;
-}
-putchar(i);
+} while (i <= 122);
+return (0);
 }
 
