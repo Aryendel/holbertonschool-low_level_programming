@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int _, p, u, t, c, h, a, r;
-{
 _ = 95;
 p = 112;
 u = 117;
@@ -24,6 +23,5 @@ _putchar(c);
 _putchar(h);
 _putchar(a);
 _putchar(r);
-}
 return (0);
 }
