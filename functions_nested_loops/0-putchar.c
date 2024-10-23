@@ -8,6 +8,7 @@ int main(void)
 {
 	{
 	int _, p, u, t, c, h, a, r;
+
 	_ = 95;
 	p = 112;
 	u = 117;
