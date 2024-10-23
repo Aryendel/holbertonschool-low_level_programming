@@ -1,7 +1,11 @@
-void putchar(char c)
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	scanf("%c", &c);
-	printf("%d", c, c);
-	
-	return (0);
+        return (0);
 }
