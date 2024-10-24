@@ -22,6 +22,15 @@ void print_alphabet_x10(void);
  *
  * Return: On success 1.
  * On error, 0 is returned.
+ * @c: c parameter is the ASCII value of a character
  */
 int _islower(int c);
+/***
+ * _isalpha - checks for alphabetic character.
+ *
+ * Return: On success 1.
+ * On error, 0 is returned.
+ * @c: c parameter is the ASCII value of a character
+ */
+int _isalpha(int c);
 #endif
