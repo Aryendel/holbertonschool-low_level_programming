@@ -47,6 +47,22 @@ int _islower(int c)
 return (0);
 }
 /**
+ * _isalpha - check for alphabetic character.
+ *
+ * Return: On success 1.
+ * On error, 0 is returned.
+ *
+ *@c: c parameter is the ASCII value of a character
+ */
+int _isalpha(int c)
+{
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	{
+		return (1);
+	}
+return (0);
+}
+/**
  * main - check the code
  *
  * Return: Always 0.
@@ -75,6 +91,30 @@ int main(void)
 		r = _isalpha(';');
 		_putchar(r + '0');
 		_putchar('\n');
+	}
+	{
+	int r;
+	
+	r = print_sign(98);
+       	_putchar(',');
+       	_putchar(' ');
+       	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(0);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(0xff);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(-1);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
 	}
 	return (0);
 }
