@@ -1,20 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
- *
- */
-int main(void)
-{
-	print_alphabet();
-	print_alphabet_x10();
-	return (0);
-}
-/**
- * print_alphabet - print the alphabet in lowercase
- *
- * Return: nothing.
+ * print_alphabet - prints the alphabet in lowercase
  *
  */
 void print_alphabet(void)
@@ -25,24 +11,18 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-_putchar('\n');
-return;
+	_putchar('\n');
 }
+
 /**
- * print_alphabet_x10 - prints the alphabet in lowercase ten times.
+ * main - check the code
  *
- * Return: nothing.
+ * Return: Always 0.
  *
  */
-void print_alphabet_x10(void)
+int main(void)
 {
-	int i;
-
-	for (i = 0; i <= 10; i++)
-	{
-		print_alphabet();
-		_putchar('\n');
-	}
-_putchar('\n');
-return;
+	print_alphabet();
+	print_alphabet_x10();
+	return (0);
 }
