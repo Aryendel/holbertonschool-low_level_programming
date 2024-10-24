@@ -46,4 +46,10 @@ int print_sign(int n);
  * @int: integer value
  */
 int _abs(int);
+/**
+ * print_last_digit - prints the last digit of a number.
+ * Return: the value of the last digit.
+ * @int: integer type
+ */
+int print_last_digit(int);
 #endif
