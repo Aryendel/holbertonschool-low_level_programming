@@ -8,6 +8,7 @@ void jack_bauer(void)
 
 	for (total = 0; total <= 1440; total++)
 	{
+/** Code pour les MINUTES */
 
 		for (min1 = 48; min1 <= 54; min1++)
 
