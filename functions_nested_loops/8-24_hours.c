@@ -1,5 +1,5 @@
 #include "main.h"
-int main(void)
+void jack_bauer(void)
 {
 	int n, hour1, hour2, min1, min2, total;
 
