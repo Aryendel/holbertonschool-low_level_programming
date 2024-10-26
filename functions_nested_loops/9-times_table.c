@@ -13,18 +13,25 @@ void times_table(void)
 		{
 			int product = x * y;
 
+			if (y > 0) /* No spacing before first row */
+			{
+				if (product < 10)
+				{
+					_putchar(' '); /* Space for single numbers to fit the format */
+				}
+			}
+
 			if (product < 10)
 			{
-				_putchar(' '); /* spacing to fit with the two numbers format */
+				_putchar(' ');
 				_putchar(product + '0');
 			} else
 			{
-				_putchar((product / 10) + '0'); /* if two numbers */
+				_putchar((product / 10) + '0'); /* Displaying two ASCII numbers */
 				_putchar((product % 10) + '0');
 			}
 
-			/* ',' et ' ' until 9th number */
-			if (y < 9)
+			if (y < 9) /* column and space until 9th row */
 			{
 				_putchar(',');
 				_putchar(' ');
