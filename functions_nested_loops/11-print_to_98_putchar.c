@@ -5,46 +5,77 @@
  */
 void print_to_98(int n)
 {
-	int two;
 
 	if (n <= 98 || n < 0)
 	{
 		for (; n <= 98; n++)
 		{
-			if (n < -9 || n > 9)
+			if (n == 98)
 			{
-				_putchar(n + '0');
-				_putchar(',');
-				_putchar(' ');
+				if (n < -9 || n > 9)
+				{
+					_putchar(n + '0');
+				}
+				else
+				{
+					_putchar((n / 10) + '0');
+					_putchar((n % 10) + '0');
+				}
 			}
 			else
 			{
-				two = (n / 10) + '0';
-				two = (n % 10) + '0';
-				_putchar(two);
-				_putchar(',');
-				_putchar(' ');
-			}
+				if (n < -9 || n > 9)
+				{
+					_putchar(n + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar((n / 10) + '0');
+					_putchar((n % 10) + '0');
+					_putchar(',');
+					_putchar(' ');
+				}
+			}	
 		}
 	}
 	else
 	{
-
-		for (; n >= 98; n--)
 		{
-			if (n < -9 || n > 9)
+
+			for (; n >= 98; n--)
 			{
-				_putchar(n + '0');
-				_putchar(',');
-				_putchar(' ');
-			}
-			else
-			{
-				two = (n / 10) + '0';
-				two = (n % 10) + '0';
-				_putchar(two);
-				_putchar(',');
-				_putchar(' ');
+				if (n == 98)
+				{
+
+					if (n < -9 || n > 9)
+					{
+						_putchar(n + '0');
+					}
+					else
+					{
+						_putchar((n / 10) + '0');
+						_putchar((n % 10) + '0');
+					}
+				}
+				else
+				{
+					if (n < -9 || n > 9)
+					{
+						_putchar(n + '0');
+						_putchar(',');
+						_putchar(' ');
+					}
+					else
+					{
+						_putchar((n / 10) + '0');
+						_putchar((n % 10) + '0');
+						_putchar(',');
+						_putchar(' ');
+					}
+				}
+
 			}
 		}
 	}
