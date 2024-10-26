@@ -62,6 +62,14 @@ void jack_bauer(void);
 void times_table(void);
 /**
  * add - adds two integers and returns the result.
+ * @int: takes two integers types
+ * @int: two integer type
+ * Return: the result of the addition
  */
 int add(int, int);
+/**
+ * print_to_98 - prints all natural numbers from n to 98.
+ * @n: number
+ */
+void print_to_98(int n);
 #endif
