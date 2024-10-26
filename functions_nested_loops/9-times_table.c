@@ -15,6 +15,7 @@ void times_table(void)
 
 			if (product < 10)
 			{
+				_putchar(' '); /* spacing to fit with the two numbers format */
 				_putchar(product + '0');
 			} else
 			{
