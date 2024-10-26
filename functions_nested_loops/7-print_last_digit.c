@@ -12,6 +12,6 @@ int print_last_digit(int x)
 	{
 		lastDigit = -lastDigit;
 	}
-
+	_putchar('0' + lastDigit); /* ASCII conversion of number */
 	return (lastDigit);
 }
