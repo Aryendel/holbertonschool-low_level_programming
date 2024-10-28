@@ -27,4 +27,5 @@ int mul(int a, int b);
  * print_numbers - prints the numbers, from 0 to 9
  */
 void print_numbers(void);
+void print_most_numbers(void);
 #endif
