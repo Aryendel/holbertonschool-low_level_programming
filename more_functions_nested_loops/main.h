@@ -19,4 +19,12 @@ int _putchar(char c);
  * @c: The character to print
  */
 int _isdigit(int c);
+/**
+ * mul - multiplies two integers.
+ */
+int mul(int a, int b);
+/**
+ * print_numbers - prints the numbers, from 0 to 9
+ */
+void print_numbers(void);
 #endif
