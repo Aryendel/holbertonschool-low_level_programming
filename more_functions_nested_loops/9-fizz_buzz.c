@@ -4,7 +4,7 @@
  * FizzBuzz - prints fizz for 3 multiple and buzz for 5 multiple
  * Return: nothing
  */
-void FizzBuzz(void)
+int main(void)
 {
 	int i;
 
@@ -25,18 +25,12 @@ void FizzBuzz(void)
 			printf("Buzz ");
 			continue;
 		}
+		if (i == 100)
+		{
+			printf("Buzz");
+		}
 		printf("%d ", i);
 
 	}
-}
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	FizzBuzz();
 	return (0);
 }
