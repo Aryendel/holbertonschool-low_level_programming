@@ -8,11 +8,11 @@ void print_line(int n)
 	int underscore = 95;
 	int count = 0;
 
-		while (count < n)
-		{
-			count++;
-			_putchar(underscore);
-		}
+	while (count < n)
+	{
+		count++;
+		_putchar(underscore);
+	}
 	_putchar('\n');
-	
+
 }
