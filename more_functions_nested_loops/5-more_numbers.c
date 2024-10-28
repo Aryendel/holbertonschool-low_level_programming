@@ -25,11 +25,4 @@ void more_numbers(void)
 		newline();
 	}
 }
-/**
- * newline - jump a line
- */
-void newline(void)
-{
-	_putchar('\n');
-}
 
