@@ -14,4 +14,9 @@ int _isupper(int c);
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+/**
+ * _isdigit - checks for a digit
+ * @c: The character to print
+ */
+int _isdigit(int c);
 #endif
