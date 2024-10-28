@@ -5,19 +5,14 @@
  */
 void print_line(int n)
 {
-	char line = 95;
+	int underscore = 95;
+	int count = 0;
 
-	if (n > 0)
-	{
-
-		for (; n >= 0; n++)
+		while (count < n)
 		{
-			straightLine = n * line;
+			count++;
+			_putchar(underscore);
 		}
-		_putchar(straightLine);
-	}
-	else
-	{
 	_putchar('\n');
-	}
+	
 }
