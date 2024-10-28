@@ -22,15 +22,17 @@ int main(void)
 		}
 		if (i % 5 == 0)
 		{
-			printf("Buzz ");
-			continue;
-		}
-		if (i == 100)
-		{
-			printf("Buzz");
+			if (i == 0)
+			{
+				printf("Buzz");
+			}
+			else
+			{
+				printf("Buzz ");
+				continue;
+			}
 		}
 		printf("%d ", i);
-
 	}
 	return (0);
 }
