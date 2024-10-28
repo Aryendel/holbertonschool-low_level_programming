@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * FizzBuzz - prints fizz for 3 multiple and buzz for 5 multiple
- * Return: nothing
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -22,15 +23,8 @@ int main(void)
 		}
 		if (i % 5 == 0)
 		{
-			if (i == 0)
-			{
-				printf("Buzz");
-			}
-			else
-			{
-				printf("Buzz ");
-				continue;
-			}
+			printf("Buzz ");
+			continue;
 		}
 		printf("%d ", i);
 	}
