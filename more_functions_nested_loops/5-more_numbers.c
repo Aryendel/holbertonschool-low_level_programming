@@ -20,10 +20,10 @@ void more_numbers(void)
 			}
 			else
 			{
-			_putchar(numbers + '0');
+				_putchar(numbers + '0');
 			}
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
 
