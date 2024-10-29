@@ -15,11 +15,11 @@ void print_triangle(int size)
 	{
 		for (i = 0; i < size; i++)
 		{
-			for (s = 0; s < (size - i) - 1; s++)
+			for (s = 0; s < (size - i) - 1; s++)  /* logic for spaces */
 			{
 				_putchar(' ');
 			}
-			for (h = 0; h <= i; h++)
+			for (h = 0; h <= i; h++) /* logic for hashtag*/
 			{
 				_putchar('#');
 			}
