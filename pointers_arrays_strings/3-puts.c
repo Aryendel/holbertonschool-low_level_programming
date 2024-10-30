@@ -9,13 +9,13 @@ void _puts(char *str)
 	int i = 0;
 	while(str[i])
 	{
-		if(_putchar(str[i]) == '\0')
+		if (_putchar(str[i]) == '\0')
 		{
 			return;
 		}
 		i++;
 	}
-	if(_putchar('\n') == '\0')
+	if (_putchar('\n') == '\0')
 	{
 		return;
 	}
