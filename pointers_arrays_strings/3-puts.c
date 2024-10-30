@@ -6,7 +6,7 @@
 void _puts(char *str)
 {
 	int i = 0;
-	while(str[i]) 
+	while(str[i])
 	{
 		if(_putchar(str[i]) == '\0')
 		{
@@ -14,7 +14,7 @@ void _puts(char *str)
 		}
 		i++;
 	}
-	if(_putchar('\n') == '\0') 
+	if(_putchar('\n') == '\0')
 	{
 		return;
 	}
