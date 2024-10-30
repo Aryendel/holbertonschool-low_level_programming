@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * puts2 - prints every other character of a string from first
+ * puts_half - prints half of a string
  * @str: string
- * Return: nothing
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int i;
 	int j = 0;
@@ -14,7 +13,7 @@ void puts2(char *str)
 		j++;
 	}
 
-	for (i = 0; i < j; i+= 2)
+	for (i = j/2; i < j;  i++)
 	{
 		_putchar(str[i]);
 	}
